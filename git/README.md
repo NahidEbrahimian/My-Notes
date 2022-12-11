@@ -33,3 +33,13 @@ git push -u origin branch_name
 git tag -a version_code -m "your message"
 git push origin version code
 ```
+
+### Delete sumbmodule from repository
+
+First clone your repository and then:
+
+```
+git submodule deinit -f submodule_directory
+rm -rf submodule_directory
+git rm -f submodule_directory
+```
