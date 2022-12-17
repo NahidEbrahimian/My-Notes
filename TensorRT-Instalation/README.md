@@ -13,7 +13,11 @@ https://developer.nvidia.com/tensorrt
 ```
 tar -xzvf TensorRT-8.4.1.5.Linux.x86_64-gnu.cuda-11.6.cudnn8.4.tar.gz
 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:TensorRT-8.4.1.5/lib
+export LD_LIBRARY_PATH=./TensorRT-8.4.1.5/lib:$LD_LIBRARY_PATH
+
+sudo nano ~/.bashrc
+#in the end of file paste this command:
+export LD_LIBRARY_PATH=./TensorRT-8.4.1.5/lib:$LD_LIBRARY_PATH
 
 cd TensorRT-8.4.1.5/python/
 python3 -m pip install tensorrt-8.4.1.5-cp37-none-linux_x86_64.whl
