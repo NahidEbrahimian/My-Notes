@@ -51,3 +51,22 @@ top -i
 psutils
 watch -n 0.5 nvidia-smi
 ```
+
+#### Run .sh file shell script
+
+```
+# Set execute permission on your script using chmod command :
+
+chmod +x script-name-here.sh
+
+# Run your script :
+
+./script-name-here.sh
+
+or
+
+sh script-name-here.sh
+
+or
+
+bash script-name-here.sh
