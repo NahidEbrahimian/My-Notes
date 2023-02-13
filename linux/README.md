@@ -70,8 +70,9 @@ sh script-name-here.sh
 or
 
 bash script-name-here.sh
+```
 
-# Create new directory
+### Create new directory
 
 ```
 mkdir directory_name
