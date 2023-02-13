@@ -43,3 +43,30 @@ git submodule deinit -f submodule_directory
 rm -rf submodule_directory
 git rm -f submodule_directory
 ```
+
+### Create new branch
+
+create your new branch called "subbranch_of_b1" under the "branch1":
+
+```
+git checkout branch1
+git checkout -b subbranch_of_b1 branch1
+```
+
+### Merge two branches:
+
+```
+git checkout branch1
+git merge subbranch_of_b1
+```
+
+### Delete a remote branch
+
+```
+# delete a local branch:
+git branch -d branch-name
+
+# removing a remote branch:
+git push origin -d branch-name
+```
+
