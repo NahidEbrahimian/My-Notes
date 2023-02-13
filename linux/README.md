@@ -70,3 +70,13 @@ sh script-name-here.sh
 or
 
 bash script-name-here.sh
+
+# Create new directory
+
+```
+mkdir directory_name
+
+or 
+
+mkdir -p parent_directory_name/directory_name
+```
