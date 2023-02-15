@@ -70,3 +70,8 @@ git branch -d branch-name
 git push origin -d branch-name
 ```
 
+### Undo the last commit
+
+```
+git reset --soft HEAD~1
+```
