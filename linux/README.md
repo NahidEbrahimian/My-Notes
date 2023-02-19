@@ -81,3 +81,10 @@ or
 
 mkdir -p parent_directory_name/directory_name
 ```
+
+### Granting all permissions to read, write and to execute
+
+```
+chmod -R 777 /directory
+```
+
