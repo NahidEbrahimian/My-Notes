@@ -65,11 +65,11 @@ python -m tf2onnx.convert --graphdef tensorflow-model-graphdef-file --output mod
 مثال استفاده از برنامه netron و مشخص کردن نام های ورودی و خروجی مدل برای graphdef :
 
 نام های ورودی:
-[input_names](https://github.com/NahidEbrahimian/Python-Documents/blob/main/convert-tensorflow-onnx/assets/input_names.png)
+![input_names](https://user-images.githubusercontent.com/82975802/226713002-7ab09f0b-4273-42cc-994a-62099b718f46.png)
 
 
 نام های خروجی:
-[output_names](https://github.com/NahidEbrahimian/Python-Documents/blob/main/convert-tensorflow-onnx/assets/output_names.png)
+![output_names](https://user-images.githubusercontent.com/82975802/226713042-64143543-3165-42c8-9eaa-23b2eef282b4.png)
 
 کامند تبدیل مدل تنسورفلو به onnx برای نام های ورودی و خروجی مثال فوق:
 
