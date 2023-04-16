@@ -75,3 +75,18 @@ git push origin -d branch-name
 ```
 git reset --soft HEAD~1
 ```
+### Remove Commit
+
+In local:
+
+using this command, get your commit code that you want to remove:
+
+```
+git log
+```
+
+then, 
+
+```
+git revert commit-code
+```
