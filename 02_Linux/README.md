@@ -87,4 +87,8 @@ mkdir -p parent_directory_name/directory_name
 ```
 chmod -R 777 /directory
 ```
+### Create requirements.txt
 
+```
+pip freeze > requirements.txt
+```
