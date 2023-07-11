@@ -94,7 +94,7 @@ git revert commit-code
 ### Remove file or directory from repository:
 
 ```
-git rm -r --cached ./runs/train/
+git rm -r --cached ./runs/train/ #or git rm -r . (for remove all files from repository)
 git commit -m "[remove]remove /train/runs directory"
 git push -u origin yolov7-face
 ```
