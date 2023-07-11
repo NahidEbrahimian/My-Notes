@@ -90,3 +90,11 @@ then,
 ```
 git revert commit-code
 ```
+
+### Remove file or directory from repository:
+
+```
+git rm -r --cached ./runs/train/
+git commit -m "[remove]remove /train/runs directory"
+git push -u origin yolov7-face
+```
