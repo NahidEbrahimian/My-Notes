@@ -9,7 +9,7 @@ git add *
 git commit -m "your message
 git push -u origin main
 ```
-### Delete File from Repository
+### Remove File from local and Repository
 
 First clone your repository and then:
 
@@ -17,6 +17,14 @@ First clone your repository and then:
 git rm file-name
 git commit -m "your message"
 git push -u origin main
+```
+
+### Remove File from  Repository
+
+```
+git rm -r --cached ./runs/train/ #or git rm -r . (for remove all files from repository)
+git commit -m "[remove]remove /train/runs directory"
+git push -u origin yolov7-face
 ```
 
 ### Tag
@@ -34,7 +42,7 @@ git tag -a version_code -m "your message"
 git push origin version code
 ```
 
-### Delete sumbmodule from repository
+### Remove sumbmodule from repository
 
 First clone your repository and then:
 
@@ -91,10 +99,3 @@ then,
 git revert commit-code
 ```
 
-### Remove file or directory from repository:
-
-```
-git rm -r --cached ./runs/train/ #or git rm -r . (for remove all files from repository)
-git commit -m "[remove]remove /train/runs directory"
-git push -u origin yolov7-face
-```
